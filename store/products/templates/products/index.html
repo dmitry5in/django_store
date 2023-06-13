@@ -23,7 +23,7 @@
                     {% endif %}
                 </p>
                 <button id="start-purchase-btn" type="button" class="btn btn-lg">
-                    <a id="start-purchase-link" href="{% url 'products:index' %}">
+                    <a id="start-purchase-link" href="{% url 'products:category_paginator' category_id=0 page_number=1 %}">
                         Начать покупки
                     </a>
                 </button>
